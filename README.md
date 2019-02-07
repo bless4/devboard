@@ -1,4 +1,4 @@
-T
+
 ### How to add your name to the list
 To add your name to the list, simply open `persons.js` file in the `src/components` folder, and then add your own row at the bottom, using the below template:    
 ( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
