@@ -1,4 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+T
+### How to add your name to the list
+To add your name to the list, simply open `persons.js` file in the `src/components` folder, and then add your own row at the bottom, using the below template:    
+( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
+
+```moonscript
+  {
+    id: [PREVIOUS_PLUS_ONE],
+    name: "[YOUR_FULL_NAME]",
+    img: "[YOUR_IMG_URL]",
+    links: {
+      website: "[YOUR_WEBSITE_URL]",
+      linkedin: "[YOUR_LINKEDIN_URL]",
+      github: "[YOUR_GITHUB_URL]"
+    },
+    jobTitle: "[YOUR_TITLE]",
+    location: {
+      city: "[YOUR CITY]",
+      state: "[YOUR_STATE_OR_PROVINCE]",
+      country: "[YOUR_COUNTRY]"
+    }
+  },
+```
+
+### Please note!
+- Profile pictures and/or images are allowed. To convert your profile picture to base64 use https://www.base64-image.de/, First rename your picture to `image`. You are free to link your image with any other methods.
+- If you do not want to fill some of the fields, leave them blank (e.g. `state: "",`).
+- Your pull request will only be accepted if it follows the example above. It **cannot** have anything else.
+
+Please submit a Pull Request for your row to be added to this list. If you are unsure how to do this, please check out *Contributing To Open Source* video in the course curriculum.
+
+
+
+his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -66,3 +99,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#devboard
